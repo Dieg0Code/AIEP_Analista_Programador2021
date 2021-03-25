@@ -67,3 +67,69 @@ Para esto existen diferentes componentes y uno de los mas importantes que nos pe
 - La unidad de control, dedicada a ciclos de búsqueda y ejecución.
 - La ALU (Arithmetic - Logic Unit) que desempeña funciones aritméticas como por ejemplo, suma y resta, y de lógica por ejemplo AND, OR.
 - Y un conjunto de registros dedicados al almacenamiento de datos en la CPU y a ciertas funciones de control.
+
+La CPU contiene un conjunto de localidades de almacenamiento temporal de datos de alta velocidad llamada registro. Algunos de los registros están dedicados al control, y solo la unidad de control tiene acceso a ellos. Los registros restantes son los registros de uso general y el programador es el usuario que tiene acceso a ellos.
+
+- Contador de programa (PC).
+- Registro de direcciones de la memoria(MAR - Memory Address Register).
+- Registro de datos (RD).
+- Registro de instrucciones (ER).
+- Palabra de estado de programa (PSW).
+
+En el registro de instrucciones de una unidad de procesamiento (CPU) podemos encontrar clasificaciones las cuales nos permiten realizar tareas, el cual es un registro que conserva el código de operación de la instrucción en todo el ciclo de la maquina.
+
+Se clasifican en 5 categorías:
+
+- Instrucciones de aritmética y lógica.
+- Instrucciones de movimientos de datos.
+- Operaciones de datos en bloques.
+- Instrucciones de control del programa.
+- Instrucciones de Entrada - Salida.
+
+Instrucciones de Aritmética y Lógica:
+
+- Operaciones binarias, las cuales requieren dos operadores y producen un resultado único.
+- La suma, la resta, la multiplicación, y division, son operadores standard en la mayor parte de las maquinas.
+- Las operaciones de lógica incluidas en el conjunto de instrucciones son las operaciones AND, NAND, NOR, XAND, XOR.
+- También dentro de las instrucciones de aritmética y lógica se encuentra las operaciones de desplazamiento y las de rotación.
+
+![arquitectura de un computador](img/PRO101ArquitecturaDeUnComputador.png)
+![esquema general de un computador](img/PRO101EsquemaGeneralDeUnComputador.png)
+
+### La Arquitectura de Von Neumann
+
+Conocida como modelo Von Neumann, es una arquitectura de computadoras basada en la descrita en 1945 por el matemático y físico John Von Neumann y otros.
+
+Este describe una arquitectura de diseño para una computador digital electrónico con partes que constan de una unidad de procesamiento, unidad aritmético lógica y registros del procesador, unidad de control que contiene un registro de instrucciones y un contador de programa, una memoria para almacenar tanto datos como instrucciones, almacenamiento masivo externo, y mecanismos de entrada y salida.
+
+- Una ALU (Unidad Aritmética-Lógica) es un circuito que permite, como su nombre lo indica, realizar operaciones lógicas y aritméticas.
+- Ademas de los operadores lógicos y aritméticos, la ALU cuenta con una serie de registros para almacenar los datos y bits de información sobre los resultados, también llamados banderas.
+- Las banderas mas comunes son: Carry, Auxiliary Carry, Borrow, Overflow, Parity, Zero.
+
+![arquitecura de von neumann](img/PROP101ArquitecturaDeVonNeumann.png)
+
+### La Programación de Bajo Nivel
+
+**Los procesadores trabajan con ceros y unos (bits)**.
+
+Unidad de memoria basica: Byte (8 bits) (2 dígitos hexadecimales: 01011011 -> 0101 1011 -> 5B).
+
+#### **Lenguaje Máquina**
+
+Códigos hexadecimales que representan instrucciones, registros de la CPU, direcciones de memoria o datos Instrucción - Significado
+
+- A0 2F Acceder a la celda de memoria.
+- 2F 3E 01 Copiar el registro 1 de la ALU.
+- A0 30 Acceder a la celda de memoria.
+- 30 3E 02 Copiar en el registro 2 de la ALU 1D Sumar.
+- B3 31 Guardar el resultado en la celda de memoria 31.
+
+![Arquitectura de Von Neumann 2](img/PRO101ArqVonNeumann2.png)
+
+#### **Ensamblador:**
+
+El lenguaje **ensamblador** o assembly (.asm) es un lenguaje de **programación** de bajo nivel. Consiste en un conjunto de **mnemónicos** que representan instrucciones básicas para los computadores, microprocesadores, microcontroladores y otros circuitos integrados programables.
+
+Este permite la traducción de una instrucción a lenguaje maquina.
+
+![Programacion de bajo nivel](img/PRO101ProgramacionDeBajoNivel.png)
