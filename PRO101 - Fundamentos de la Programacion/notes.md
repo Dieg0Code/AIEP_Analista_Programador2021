@@ -133,3 +133,72 @@ El lenguaje **ensamblador** o assembly (.asm) es un lenguaje de **programación*
 Este permite la traducción de una instrucción a lenguaje maquina.
 
 ![Programacion de bajo nivel](img/PRO101ProgramacionDeBajoNivel.png)
+
+### Que es Programar
+
+Especificar la estructura  y el comportamiento de un programa, así como probar que el programa realiza su tarea adecuadamente y con un rendimiento aceptable.(Decir que tiene que hacer en el menor tiempo posible)
+
+![input - output](img/PRO101EntradaSalida.png)
+
+### Lenguaje de Alto Nivel
+
+Un lenguaje de programacion de alto nivel se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad con que los ejecutan las máquinas (0 y 1 Binarios). Estos lenguajes permiten una máxima flexibilidad al programador a la hora de abstraerse o de ser literal.
+
+Existen desde la década de los 50 y nacieron con el objetivo de ir más allá respecto a las limitaciones de los lenguajes de bajo nivel, permitiendo a los usuarios resolver problemas de una forma sencilla y rápida. Desde entonces han aparecido distintos lenguajes de alto nivel y es conveniente conocer, al menos, los principales.
+
+### Que es un Algoritmo
+
+Es un conjunto de instrucciones o reglas definidas y no-ambiguas, ordenadas y finitas que permite solucionar un problema, realizar un cómputo (cálculos), procesar datos y llevar a cabo otras tareas o actividades.
+
+**Pero para que me puede servir un algoritmo?**
+
+A través de un conjunto de instrucciones realizadas en orden conducen a obtener la solución de un problema y sistematizarlo.
+
+### Componentes de un Algoritmo
+
+**Conceptualmente, un algoritmo tiene tres componentes:**
+
+- **Entrada:** Son los datos sobre los que el algoritmo opera.
+- **Proceso:** Son los pasos que hay que seguir, utilizando la entrada y debe ser realizado en orden.
+- **Salida:** Es el resultado que entrega el algoritmo.
+
+**El proceso es una secuencia de sentencias:**
+
+- **Ciclos:** Grupos de sentencias ejecutadas varias veces.
+- **Condiciones:** Grupos de sentencias que sólo son ejecutadas bajo ciertas condiciones.
+
+### Para contextualizar un Algoritmo
+
+La racionalidad es la capacidad que permite pensar, evaluar, entender y actuar de acuerdo a ciertos principios lógicos y de consistencia, con el fin de satisfacer algún objetivo o finalidad.
+
+Nuestro actuar como personas se basa en la capacidad que tiene el ser humano como único ser racional de la naturaleza, somos el único individuo que desarrolla instrucciones secuenciales y lógicas de acuerdo al pensamiento.
+
+### Tipos de Algoritmos
+
+**Existen dos tipos de Algoritmos.**
+
+- **Algoritmos Convencionales:** Que son los que hacen las personas todos los días en sus diferentes actividades para solucionar problemas del trabajo o de la vida cotidiana.
+- **Algoritmos Computacionales:** Que son los que utilizan el computador a través de programas diseñados por desarrolladores de software y programadores para dar solución a problemas de cálculo o de manejo de información.
+
+### Para Construir un Algoritmo
+
+Cuando se elabora un algoritmo se debe tener en cuenta lo siguiente.
+
+- Tener claro cuál es el problema que se va a solucionar.
+- Establecer un objetivo que permita medir la solución del problema.
+- Elaborar un algoritmo que solucione el problema.
+- Realizar pruebas al algoritmo para verificar los resultados.
+
+### Componentes de un Algoritmo
+
+**Ejemplo 1:** Algoritmo que permita ir de la casa a la universidad.
+**Objetivo:** Ir de la casa a la universidad.
+
+**Inicio.**
+
+1. Salir de la casa.
+2. Si está lejos de la universidad entonces tomar un medio de trasporte que lo deje cerca del mismo.
+3. Si no está lejos de la universidad entonces dirigirse caminando hacia él mismo.
+4. Llegar a la puerta de la universidad.
+
+**Fin.**
