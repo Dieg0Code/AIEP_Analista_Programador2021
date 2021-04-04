@@ -4,7 +4,7 @@
 
 ##### Correo Profesor: antolin.munoz@correoaiep.cl
 
-##### AIEP Osorno - Marzo 2021
+##### AIEP Osorno - Marzo/Abril 2021
 
 ### Contenidos
 
@@ -106,13 +106,13 @@ Este describe una arquitectura de diseño para una computador digital electróni
 - Ademas de los operadores lógicos y aritméticos, la ALU cuenta con una serie de registros para almacenar los datos y bits de información sobre los resultados, también llamados banderas.
 - Las banderas mas comunes son: Carry, Auxiliary Carry, Borrow, Overflow, Parity, Zero.
 
-![arquitecura de von neumann](img/PROP101ArquitecturaDeVonNeumann.png)
+![arquitectura de von neumann](img/PROP101ArquitecturaDeVonNeumann.png)
 
 ### La Programación de Bajo Nivel
 
 **Los procesadores trabajan con ceros y unos (bits)**.
 
-Unidad de memoria basica: Byte (8 bits) (2 dígitos hexadecimales: 01011011 -> 0101 1011 -> 5B).
+Unidad de memoria básica: Byte (8 bits) (2 dígitos hexadecimales: 01011011 -> 0101 1011 -> 5B).
 
 #### **Lenguaje Máquina**
 
@@ -132,17 +132,17 @@ El lenguaje **ensamblador** o assembly (.asm) es un lenguaje de **programación*
 
 Este permite la traducción de una instrucción a lenguaje maquina.
 
-![Programacion de bajo nivel](img/PRO101ProgramacionDeBajoNivel.png)
+![Programación de bajo nivel](img/PRO101ProgramacionDeBajoNivel.png)
 
 ### Que es Programar
 
-Especificar la estructura  y el comportamiento de un programa, así como probar que el programa realiza su tarea adecuadamente y con un rendimiento aceptable.(Decir que tiene que hacer en el menor tiempo posible)
+Especificar la estructura  y el comportamiento de un programa, así como probar que el programa realiza su tarea adecuadamente y con un rendimiento aceptable. (Decir que tiene que hacer en el menor tiempo posible)
 
 ![input - output](img/PRO101EntradaSalida.png)
 
 ### Lenguaje de Alto Nivel
 
-Un lenguaje de programacion de alto nivel se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad con que los ejecutan las máquinas (0 y 1 Binarios). Estos lenguajes permiten una máxima flexibilidad al programador a la hora de abstraerse o de ser literal.
+Un lenguaje de programación de alto nivel se caracteriza por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, en lugar de la capacidad con que los ejecutan las máquinas (0 y 1 Binarios). Estos lenguajes permiten una máxima flexibilidad al programador a la hora de abstraerse o de ser literal.
 
 Existen desde la década de los 50 y nacieron con el objetivo de ir más allá respecto a las limitaciones de los lenguajes de bajo nivel, permitiendo a los usuarios resolver problemas de una forma sencilla y rápida. Desde entonces han aparecido distintos lenguajes de alto nivel y es conveniente conocer, al menos, los principales.
 
@@ -189,7 +189,7 @@ Cuando se elabora un algoritmo se debe tener en cuenta lo siguiente.
 - Elaborar un algoritmo que solucione el problema.
 - Realizar pruebas al algoritmo para verificar los resultados.
 
-### Componentes de un Algoritmo
+### Ejemplo
 
 **Ejemplo 1:** Algoritmo que permita ir de la casa a la universidad.
 **Objetivo:** Ir de la casa a la universidad.
@@ -202,3 +202,16 @@ Cuando se elabora un algoritmo se debe tener en cuenta lo siguiente.
 4. Llegar a la puerta de la universidad.
 
 **Fin.**
+
+### Ejemplo practico de un algoritmo
+
+El algoritmo es la secuencia de pasos que hay que seguir para resolver el problema.
+
+1. Arrancar.
+2. Ir un bloque al Norte.
+3. Ir dos bloques al Este.
+4. Ir cinco bloques al Norte.
+5. Ir dos bloques al Este.
+6. Parar
+
+![Ejemplo practico de un Algoritmo](img/PRO101EjemploPracticoAlgoritmo.png)
