@@ -215,3 +215,36 @@ El algoritmo es la secuencia de pasos que hay que seguir para resolver el proble
 6. Parar
 
 ![Ejemplo practico de un Algoritmo](img/PRO101EjemploPracticoAlgoritmo.png)
+
+
+### Diagramas de flujo
+
+Un diagrama de flujo permite representar de forma gráfica un algoritmo a través de símbolos.
+
+![Diagrama de Flujo](img/PRO101DiagramaDeFujo.png)
+
+Para elaborar un diagrama de flujo se deben tener en cuenta las siguientes reglas:
+
+**Las entradas** son datos o insumos que necesita el algoritmo para que se pueda elaborar.
+
+**Los procesos** son las acciones que permiten transformar las entradas (insumos o datos) en otros datos u otros insumos que permitirán dar solución al problema.
+
+**Las salidas** hacen referencia a los resultados que debe dar al final el algoritmo.
+
+**Las decisiones** se usan para tomar decisiones lógicas y de acuerdo a estas ejecutar o no conjuntos de instrucciones.
+
+**Las iteraciones** permiten repetir un conjunto de instrucciones dentro de un algoritmo.
+
+### Símbolos de un Diagrama de Flujo
+
+![Simbolos de un Diagrama de Flujo](img/PRO101SimbolosDeDiagramaDeFlujo.png)
+
+Los diagramas de flujo se deben realizar de arriba hacia abajo o de izquierda a derecha.
+
+El algoritmo debe arrancar con el símbolo de inicio y terminar con el símbolo de fin.
+
+La dirección de flujo se debe representar por medio de flechas.
+
+Todas las líneas de flujo deben llegar a un símbolo o a otra línea.
+
+![Diagrama de flujo](img/PRO101DiagramaDeFlujo1.png)
