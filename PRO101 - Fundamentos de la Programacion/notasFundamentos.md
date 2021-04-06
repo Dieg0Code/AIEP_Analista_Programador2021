@@ -248,3 +248,5 @@ La dirección de flujo se debe representar por medio de flechas.
 Todas las líneas de flujo deben llegar a un símbolo o a otra línea.
 
 ![Diagrama de flujo](img/PRO101DiagramaDeFlujo1.png)
+
+### Diagramas de Flujo
