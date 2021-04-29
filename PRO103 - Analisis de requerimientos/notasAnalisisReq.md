@@ -142,3 +142,246 @@ A continuación las características de tres tipos de organizaciones económicas
 - Organizaciones empresariales.
 - Organizaciones sociales.
 - Organizaciones gubernamentales.
+
+-------------------------------------------------------------------------------------------------
+
+## Repaso para Prueba de Metodologías Ágiles
+
+Material de estudio para la prueba
+
+## Desarrollo iterativo e incremental
+
+En un desarrollo iterativo e incremental el proyecto se planifica en diversos bloques temporales llamados iteraciones.
+
+Las iteraciones se pueden entender como miniproyectos: en todas las iteraciones se repite un proceso de trabajo similar (de ahí el nombre "iterativo") para proporcionar un resultado completo sobre producto final, de manera que el cliente pueda obtener los beneficios del proyecto de forma incremental.
+
+### Desarrollo incremental
+
+Para ello, cada requisito se debe completar en una única iteración: el equipo debe realizar todas las tareas necesarias para completarlo (incluyendo pruebas y documentación) y que esté preparado para ser entregado al cliente con el mínimo esfuerzo necesario. De esta manera no se deja para el final del proyecto ninguna actividad arriesgada relacionada con la entrega de requisitos.
+
+![desarrollo incremental](img/desarrolloIncremental.png)
+
+Para ello, cada requisito se debe completar en una única iteración: el equipo debe realizar todas las tareas necesarias para completarlo (incluyendo pruebas y documentación) y que esté preparado para ser entregado al cliente con el mínimo esfuerzo necesario. De esta manera no se deja para el final del proyecto ninguna actividad arriesgada relacionada con la entrega de requisitos.
+
+#### Beneficios
+
+- Se puede gestionar las expectativas del cliente (requisitos desarrollados, velocidad de desarrollo, calidad) de manera regular, puede tomar decisiones en cada iteración. Esto es especialmente interesante cuando:
+  - El cliente no sabe exactamente qué es lo que necesita, lo va sabiendo conforme va viendo cuales son los resultados del proyecto.
+  - El cliente necesita hacer cambios a corto plazo (nuevos requisitos o a cambios en los ya realizados) por:
+    - Cambios en las condiciones del mercado (por un cambio de necesidades, por un nuevo producto que ha lanzado la competencia, urgencias).
+    - La reacción y aceptación del mercado respecto al uso de los primeros resultados del proyecto.
+    - Cualquier cambio en el entorno (recursos, etc.), que pueda incluso finalizar el proyecto manteniendo como mínimo los resultados alcanzados hasta ese momento.
+  - El cliente puede obtener resultados importantes y usables ya desde las primeras iteraciones.
+  - La finalizacion de cada iteración es el lugar natural donde el equipo puede decidir cómo mejorar su proceso de trabajo, en función de la experiencia obtenida. Con esta información ya es posible planificar iteraciones. Ver en Retrospectiva.
+  - Permite conocer el progreso real del proyecto desde las primeras iteraciones y extrapolar si su finalizacion es viable en la fecha prevista. El cliente puede decidir re priorizar los requisitos del proyecto, añadir nuevos equipos, cancelarlo, etc.
+  - Dado que cada iteración debe dar como resultado requisitos terminados, se minimiza el número de errores que se producen en el desarrollo y se aumenta la calidad.
+
+#### Restricciones
+
+- La disponibilidad del cliente debe ser alta durante todo el proyecto dado que participa de manera continua:
+  - El inicio de una iteración, el cliente ha de detallar (o haber detallado previamente) los requisitos que se van a desarrollar.
+  - En la finalizacion de cada iteración, el cliente ha de revisar los requisitos desarrollados.
+- La relación con el cliente ha de estar basada en los principios de **colaboración y ganar/ganar** más que tratarse de una relación contractual en la cual cada parte únicamente defiende su beneficio a corto plazo.
+- Cada iteración debe dar como resultado requisitos terminados, de manera que el resultado sea realmente útil para el cliente y no deje tareas pendientes para futuras iteraciones o para la finalización del proyecto.
+
+#### Recomendaciones
+
+- Utilizar iteraciones cortas de 2 a 4 semanas incrementa la productividad del proyecto, dado que el equipo trabaja de forma más eficiente cuando tiene objetivos a corto plazo. Asimismo, con iteraciones cortas la precisión de las estimaciones aumenta. El tamaño depende de:
+  - Las condicionantes del proyecto.
+  - La necesidad de tener feedback más o menos rápido.
+  - Que no se degrade la relación trabajo útil / gestión operativa (por ejemplo reuniones, actividades necesarias que no producen valor directo, etc.)
+- Utilizar iteraciones regulares, de manera que todas sean un timebox de la misma duración.
+  - El equipo aprende a calcular la velocidad de desarrollo, la cantidad de trabajo que puede hacer en una iteración (sin tener que hacer extrapolaciones si las iteraciones no fuesen regulares)
+  - El cliente puede proyectar cuantas iteraciones se necesitan para tener cada entrega, en función de la velocidad de desarrollo del equipo (el trabajo que pudo completar en iteraciones anteriores del mismo tamaño), y tomar decisiones al respecto.
+  - Permite gestionar y sincronizar de manera sencilla las necesidades del proyecto con respecto a las de otros proyectos (integración con el trabajo realizado por otros equipos, compartición de personas que son difíciles de asignar a un único equipo)
+
+---------------------------------------------------------------------------------------------------------------------
+
+### Desarrollo Iterativo
+
+- No entrega prototipos esta mas enfocado en el proceso de desarrollo y en el feedback que pueden obtener al finalizar cada iteración.
+
+![Desarrollo iterativo](img/desarrolloIterativo.png)
+
+### Desarrollo Incremental
+
+- Se enfoca en la relación con el cliente y en la retroalimentación que esta pueda proporcionar gracias a la liberación de prototipos al finalizar cada iteración.
+
+![Desarrollo incremental](img/desarrolloIncremental1.png)
+
+![Iterativo e Incremental](img/iterativoEIncremental.png)
+
+---------------------------------------------------------------------------------------------------------------------
+
+## Metodologías Ágiles
+
+## Metodología Scrum
+
+La metodología Scrum es un marco de trabajo o framework que se utiliza dentro de equipos que manejan proyectos complejos. Es decir, se trata de una metodología de trabajo ágil que tiene como finalidad la entrega de valor en períodos cortos de tiempo y para ello se basa en tres pilares: la transparencia, inspección y adaptación. Esto permite al cliente, junto con su equipo comercial, insertar el producto en el mercado pronto, rápido y empezar a obtener ventas.
+
+Los pilares o características de la metodología Scrum más importante son 3
+
+![Pilares de Scrum](img/pilaresScrum.png)
+
+1. **Transparencia**: Con el método Scrum todos los implicados tienen conocimiento de qué ocurre en el proyecto y cómo ocurre. Esto hace que haya un entendimiento "común" del proyecto, una visión global.
+2. **Inspección**: Los miembros del equipo Scrum frecuentemente inspeccionan el progreso para detectar posibles problemas. La inspección no es un examen diario, sino una forma de saber que el trabajo fluye y que el equipo funciona de manera auto-organizada.
+3. **Adaptación**: Cuando hay algo que cambiar, el equipo se ajusta para conseguir el objetivo del sprint. Esta es la clave para conseguir el éxito en proyectos complejos, donde los requisitos son cambiantes o poco definidos y en donde la adaptación, la innovación, la complejidad y flexibilidad son fundamentales.
+
+## Roles de la Metodología Scrum
+
+Con la **metodología Scrum**, el equipo tiene como foco entregar valor y ofrecer resultados de calidad que permitan cumplir los objetivos de negocio del cliente.
+
+Para ello, los equipos de Scrum son **autoorganizados y multifuncionales**. Es decir, cada uno es responsable de unas tareas determinadas y de terminarlas en los tiempos acordados. Esto garantiza la entrega de valor del equipo completo, sin necesidad de ayuda o la supervisión minuciosa de otros miembros de la organización.
+
+En Scrum existen 3 roles muy importantes:
+
+- Product Owner
+- Scrum Master
+- Equipo de Desarrollo.
+
+### Product Owner
+
+Es el responsable de maximizar el valor del trabajo del equipo de desarrollo. La maximización del valor del trabajo viene de la mano de una buena gestión del **Product Backlog**.
+
+El **Product Owner** es el único perfil que habla constantemente con el cliente, lo que le obliga a tener muchos conocimientos sobre negocio.
+
+Para finalizar, un **equipo Scrum** debe tener solo un **Product Owner** y este puede ser parte del equipo de desarrollo.
+
+### Scrum Master
+
+Es el responsable de que las **técnicas Scrum** sean comprendidas y aplicadas en la organización. Es el manager de Scrum, un líder que se encarga de eliminar impedimentos o inconvenientes que tenga el equipo dentro de un sprint.
+
+Dentro de la organización, el **Scrum Master** tiene la labor de ayudar el la adopción de esta metodología en todos los equipos.
+
+### Equipo de Desarrollo
+
+Son los encargados de realizar las **tareas priorizadas por el Product Owner**. Es un equipo multifuncional y auto-organizado. Son los únicos que estiman las tareas del **product backlog**, sin dejarse influenciar por nadie.
+
+Los **equipos de desarrollo** no tienen sub-equipos o especialistas. La finalidad de esto es transmitir la responsabilidad compartida si no se llegan a realizar todas las tareas de un sprint.
+
+#### **Los Hitos de la Metodología Scrum**
+
+El desarrollo iterativo se realiza en un sprint, que contiene los siguientes eventos:
+
+- Sprint Planning.
+- Daily Meeting.
+- Sprint Review.
+- Sprint Retrospective.
+
+![Hitos de la metodología Scrum](img/hitosScrum.png)
+
+- **Sprint:** El sprint es el corazón de Scrum, es el contenedor de los demás hitos del proceso. Todo lo que ocurre en una iteración para entregar valor está dentro de un sprint. La duración máxima es de un mes, el tiempo se determina en base al nivel de comunicación que el cliente quiere tener con el equipo. Los sprints largos pueden hacer que se pierda feedback valioso del cliente y poner en peligro el proyecto.
+
+![sprint](img/sprint.png)
+
+- **Sprint Planning:** En esta primera reunión que se hace en el sprint **puede llegar a tener una duración de 8 horas para sprints de un mes**.
+
+El equipo hace las siguientes preguntas:
+
+- **¿Qué se va a hacer en el sprint?** En base a ello, se eligen tareas del Product Backlog.
+- **¿Cómo lo vamos a hacer?** El equipo de desarrollo define las tareas necesarias para completar cada ítem elegido del Product Backlog.
+
+La definición de qué se va a hacer implica que con la entrega de valor que se hará al cliente al final **el equipo tenga un objetivo y se encuentre comprometido** del sprint. A esto se le llama sprint goal.
+
+El resultado de esta reunión es el **sprint goal y un sprint backlog**.
+
+- **Daily Meeting:** Es un reunión diaria dentro del sprint que tiene **como máximo 15 minutos de duración.** En ella debe participar, si o si, el **equipo de desarrollo y el Scrum Master**. El Product Owner no tiene necesidad de estar presente.
+
+En esta reunión diaria el equipo de desarrollo hace las siguientes tres preguntas:
+
+**¿Qué hice ayer?**
+
+**¿Que voy a hacer hoy?**
+
+**¿Tengo algún impedimento que necesito que me solucionen?**
+
+Esta reunión es la más oportuna para poder inspeccionar el trabajo y poder adaptarse en caso de que haya cambio de tareas dentro de un sprint.
+
+- **Sprint Review:** La review del valor que vamos a entregar al cliente se hace en esta reunión, al final de cada sprint. Su duración es de **4 horas para sprints de un mes**, y es la única reunión de Scrum a la que puede asistir el cliente. En ella el Product Owner **presenta lo desarrollado al cliente** y el equipo de desarrollo **muestra su funcionamiento**. El cliente valida los cambios realizados y además brinda feedback sobre nuevas tareas que el Product Owner tendrá que agregar al Product Backlog.
+- **Sprint Retrospective:** La retrospectiva es el último evento de Scrum, tiene una duración de 3 horas para Sprints de un mes, y es la reunión del equipo en la que se hace una evaluación de cómo se ha implementado la **metodología Scrum** en el último sprint.
+
+Es una gran oportunidad para el **equipo Scrum** de inspeccionarse a sí mismo, proponiendo mejoras para el siguiente sprint.
+
+El resultado: una lista de mejoras que debe aplicar el siguiente día, ya que al finalizar la retrospectiva, inmediatamente comienza un nuevo sprint, que incluye el sprint planning, daily meeting, sprint review y la ya mencionada sprint retrospective.
+
+## Herramientas para la metodología Scrum
+
+Las herramientas que se utilizan en Scrum están definidas para maximizar la transparencia dentro del equipo; es decir, que todos tengan una misma visión de lo que está ocurriendo en el proyecto.
+
+Las herramientas principales de Scrum son:
+
+- Product Backlog
+- Sprint Backlog
+
+![product backlog, sprint backlog](img/product&SprintBacklog.png)
+
+- **Product backlog:** Básicamente, el product backlog es el listado de tareas que engloba todo un proyecto. Cualquier cosa que debamos hacer debe estar en el product backlog y con un tiempo estimado por el equipo de desarrollo.
+
+La responsabilidad exclusiva de ordenar el product backlog es del Product Owner, que se encuentra en constante comunicación con el cliente para asegurarse de que las prioridades están bien establecidas.
+
+Las tareas que están más arriba deben de ser las de mayor prioridad.
+
+El equipo de desarrollo elige tareas del product backlog en el sprint planning para generar tanto el sprint backlog como el sprint goal.
+
+- **Sprint backlog:** Es el grupo de tareas del product backlog que el equipo de desarrollo elige en el sprint planning junto con el plan para poder desarrollarlas. Debe ser conocido por todo el equipo, para asegurarse de que el foco debe estar en este grupo de tareas.
+
+El sprint planning no cambia durante el sprint, solo se permite cambiar el plan para poder desarrollarlas.
+
+### Ventajas de la metodología Scrum
+
+- Scrum es muy **fácil de aprender:** los roles, hitos y herramientas son claros y tienen un objetivo por lo que es un método muy relacionado con nuestra manera diaria de trabajar.
+- El cliente puede comenzar a **usar el producto rápidamente**.
+- Se agiliza el proceso, ya que la entrega de valor es muy frecuente.
+- Menor probabilidad de sorpresas o imprevistos, porque el cliente está viendo frecuentemente el proyecto.
+
+### Desventajas de la metodología Scrum
+
+- Aunque Scrum sea fácil de aprender, es muy **difícil implementarlo**. Esto supone una predisposición y un cambio de cultura de la organización que debe ir desde los altos mandos hasta los clientes.
+- La necesidad de tener **equipos multidisciplinares** puede ser un problema, ya que es difícil encontrar personas que sean capaces de hacer todo el trabajo de un equipo.
+- El equipo puede tender a realizar el camino más corto para conseguir el objetivo de un sprint, el cual no siempre ofrece resultados de calidad.
+
+## Metodología Programación Extrema (XP)
+
+La programación extrema es una metodología de desarrollo ágil que tiene como principal objetivo aumentar la productividad a la hora de desarrollar un proyecto de software. Da prioridad a los trabajos que dan un resultado directo y en los cuales se reduce la burocracia que pueda existir en el entorno de trabajo.
+
+### El modelo
+
+La metodología XP define cuatro variables para cualquier proyecto de software: costo, tiempo, calidad y alcance. El método especifica que de estas cuatro variables, tres de ellas podrán ser fijadas arbitrariamente por actores externos al grupo de desarrolladores (clientes y jefes de proyecto), y el valor de la restante deberá ser establecida por el equipo de desarrollo, quien establecerá si valor en función de las otras tres.
+
+Por ejemplo, si el cliente establece el alcance y la calidad, y el jefe de proyecto el precio, el grupo de desarrollo tendrá libertad para determinar el tiempo que durará el proyecto. Se trata de establecer un equilibrio entre las cuatro variables del proyecto.
+
+### El Ciclo de Vida
+
+Al igual que otras metodologías de gestión de proyectos, tanto ágiles como tradicionales, el ciclo XP incluye:
+
+- Entender lo que el cliente necesita > Fase de Exploración.
+- Estimar el esfuerzo > Fase de Planificación.
+- Crear la solución > Fase de Iteraciones.
+- Entregar el producto final al cliente > Fase de puesta en producción.
+
+En cada iteración se realiza un ciclo completo de análisis, diseño, desarrollo y pruebas, pero utilizando u conjunto de reglas y prácticas especificas de XP. Un proyecto con XP, implica de entre 10 a 15 iteraciones habitualmente.
+
+![XP](img/metodologiaXP.png)
+
+## Equipos de Programación Extrema
+
+**Lista del equipo XP:**
+
+Como toda metodología ágil, esta metodología de Programación Extrema XP, tiene su equipo definido.
+
+- **El cliente ejerce así su responsabilidad:** Los clientes son los responsables de definir los objetivos del proyecto, así como de conducir su gestión. Marcan las necesidades y las prioridades en el proyecto.
+- **Los programadores y su marco de acción:** Como especialistas en las actividades que ayudarán a cumplir los objetivos, los programadores serán los encargados de delimitar duraciones y estimar tiempos. Por lo que planificarán el proyecto, con respecto a los requisitos acordados con los clientes
+- **Los testers amplían su rol en la XP:** La comunicación del Tester con el cliente será vital para alinear resultados con requisitos estimados.
+- **El tracker o encargado de seguimiento:** Su objetivo será que en todo momento haya un control y un por qué se realiza cada cosa. También la comunicación y relación constante con el cliente es clave. Definirá los hitos o puntos de control en la planificación, en función de los objetivos del cliente y las estimaciones de tiempos de ejecución de tareas del equipo de programadores.
+- **El coach y su labor clave:** Los coach realizan una tarea fundamental: el asesoramiento y orientación continuo tanto para el equipo de trabajo como para los clientes. Son la guía del proyecto, para que todos sepan bien qué, cómo y cuándo hacerlo.
+- **El manager XP responde así a este método:** El responsable de coordinar comunicaciones entre las distintas partes, ofrecer y gestionar los recursos necesarios. De tener una idea general del funcionamiento del proyecto y su estado en todo momento.
+
+### Metodología XP: Fases
+
+![fases metodología XP](img/fasesXP.png)
+
+1. **Planificación:** Según la identificación de las historias de usuario, se priorizan y se descomponen en mini-versiones. La planificación se va a ir revisando. Cada dos semanas aproximadamente de iteración, se debe obtener un software útil, funcional, listo para probar y lanzar
+2. **Diseño:** En este paso se intentará trabajar con un código sencillo, haciendo lo mínimo imprescindible para que funcione. Se obtendrá el prototipo. Además, para el diseño del software orientado a objetos, se crearán tarjetas CRC (Clase-Responsabilidad-Colaboración)
+3. **Codificación \<DE TODOS>:** La programación aquí se hace *a dos manos*, en parejas en frente del mismo ordenador. Incluso, a veces se intercambian las parejas. De esta forma, nos aseguramos que se realice un código más universal, con el que cualquier otro programador podría trabajar y entender. Y es que debe parecer que ha sido realizado por una única persona. Así se conseguirá una programación organizada y planificada.
+4. **Pruebas:** Se deben realizar pruebas automáticas continuamente. Al tratarse normalmente de proyectos a corto plazo, este testeo automatizado y constante es clave. Además, el propio cliente puede hacer pruebas, proponer nuevas pruebas e ir validando las mini-versiones.
+5. **Lanzamiento:** Si hemos llegado a este punto, significa que hemos probado todas las historias de usuario o mini-versiones con éxito, ajustándonos a los requerimientos del cliente. Tenemos un software útil y podemos incorporarlo en el producto.
