@@ -439,4 +439,6 @@ Scrum, a diferencia de Agile, no es una metodología. Scrum es un framework porq
 
 ### **Gobernanza ágil:**
 
-Agile es un marco utilizado para el desarrollo de software y la gestión de proyectos. Los proyectos individuales se dividen en segmentos más pequeños y fáciles de administrar para acelerar
+Agile es un marco utilizado para el desarrollo de software y la gestión de proyectos. Los proyectos individuales se dividen en segmentos más pequeños y fáciles de administrar para acelerar el proceso de diseño y producir un producto de calidad lo más rápido posible. Parece una buena idea, ¿verdad? claro que lo hace. Pero una empresa u organización no es solo un proyecto o un producto de software. Quedarse atrapado en el proceso de diseño de un proyecto puede crear una especie de visión de túnel en la que solo se considera una pequeña pieza del rompecabezas. Las organizaciones deben mirar el panorama general, el efecto general que el proceso ágil tiene en la organización. La gobernanza ágil busca alinear todos los proyectos en los que se trabaja con los objetivos de la organización.
+
+La gobernanza ágil se trata de crear valor en toda la organización, no solo dentro de un proyecto individual. La gobernanza ágil está destinada a crear un puente entre la gestión de una organización y los equipos que están completando proyectos.
