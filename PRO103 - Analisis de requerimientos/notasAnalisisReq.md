@@ -385,3 +385,58 @@ Como toda metodología ágil, esta metodología de Programación Extrema XP, tie
 3. **Codificación \<DE TODOS>:** La programación aquí se hace *a dos manos*, en parejas en frente del mismo ordenador. Incluso, a veces se intercambian las parejas. De esta forma, nos aseguramos que se realice un código más universal, con el que cualquier otro programador podría trabajar y entender. Y es que debe parecer que ha sido realizado por una única persona. Así se conseguirá una programación organizada y planificada.
 4. **Pruebas:** Se deben realizar pruebas automáticas continuamente. Al tratarse normalmente de proyectos a corto plazo, este testeo automatizado y constante es clave. Además, el propio cliente puede hacer pruebas, proponer nuevas pruebas e ir validando las mini-versiones.
 5. **Lanzamiento:** Si hemos llegado a este punto, significa que hemos probado todas las historias de usuario o mini-versiones con éxito, ajustándonos a los requerimientos del cliente. Tenemos un software útil y podemos incorporarlo en el producto.
+
+---------------------------------------------------------------------------------------------------------------------
+
+## Repaso para prueba BPMN/BPM
+
+## BPM (Business Process Management)
+
+### **Arquitectura de Negocios:**
+
+Es el diseño de una operación de negocios, normalmente descrita en términos de capacidades empresariales y capacidades de tecnología de soporte. Este diseño es conceptual y se utiliza para determinar cómo una empresa tendrá que cambiar para apoyar una tragedia dada.
+
+### **¿Que es BPM?**
+
+BPM (Business Process Management), o Gestión de Procesos de Negocio, es una disciplina (que combina tecnologías y metodologías), que tiene como fin mejorar los procesos de negocio que sustentan la operación de las organizaciones.
+
+Se basa en un ciclo de mejora continua compuesto de cuatro etapas:
+
+1. Modelar los procesos mediante un diagrama en una notación gráfica (como ser el estándar **BPMN** por ejemplo), que permita visualizar y discutir cómo funcionan.
+2. Automatizar los procesos utilizando un BPM Suite, donde los diferentes participantes de cada etapa puedan hacer su parte del trabajo.
+3. Medir tiempos y cantidades de trabajo realizadas utilizando indicadores de rendimiento, para extraer conclusiones objetivas sobre dónde mejorar.
+4. Optimizar, introducir las mejoras derivadas del análisis anterior para mejorar el proceso, y volver al punto 1.
+
+### **Proceso de Negocio:**
+
+Un proceso de negocio es una secuencia de actividades que se realizan en una empresa para lograr alguno de sus objetivos. Por lo general un proceso de negocio involucra a varias personas que colaboran cada uno en una etapa diferente del proceso. Por ello, para entender ¿Que es BPM?, primero deberemos identificar los procesos que sustentan la operación de la organización. Luego, entender cómo funciona cada uno de ellos. A partir de ello, podremos automatizarlos y mejorarlos.
+
+### **Ejemplo**
+
+Imaginemos que su empresa recibe solicitudes de cotización de sus productos por diferentes medios: mail, teléfono o web en su call center o por medio de un equipo de vendedores en la calle y contacto directo con los clientes. En cualquier caso, luego de recibida la solicitud, es asignada a un vendedor, quien se dedica a comunicarse con el cliente para conocer mejor sus necesidades y construir una propuesta comercial que las atienda. Hay propuestas estándar, que van directo al cliente via mail, y hay propuestas complejas, que requieren de  una aprobación adicional del gerente comercial y luego van al cliente. Para simplificar, digamos que el cliente sólo puede hacer tres cosas: comprar, rechazar la propuesta o pedir modificaciones. Si compra, el proceso continúa a través del vendedor, quien coordina la entrega.
+
+Lo descrito antes, así de simple, es un proceso de negocio, que se podría expresar de forma gráfica mediante un diagrama gráfico (existen varias notaciones, siendo BPMN el estándar más difundido):
+
+![ejemplo BPMN](img/ejemploBPMN.png)
+
+### **Gobernanza de Procesos:**
+
+Es un marco que organiza y define los elementos: roles y responsabilidades, normas, tareas, estructura organizativa, objetivos, mecanismos de control y mecanismos de evaluación, con el fin de facilitar la gestión de procesos como elemento de gestión cotidiano en las organizaciones, con el fin de mejorar el rendimiento de sus procesos.
+
+### **La Metodología Agile:**
+
+Mantiene la dirección sin caer en la rigidez de los conocidos métodos en cascada o waterfall. Estos planean el trabajo desde el principio, sin lugar a imprevistos. De forma que cuando aparecen, resulta imposible reaccionar a tiempo. El agilismo, sin embargo, mantiene la capacidad de tomar la mejor opción en cada momento sin comprometer el proyecto.
+
+![metodología agile](img/metodologiaAgile.png)
+
+### **Scrum y Agile: Similitudes y Diferencias:**
+
+A pesar de que Scrum es una manera de ser ágil, no son lo mismo.
+
+Agile es mucho más que una metodología, es un conjunto de valores y de principios a seguir para evitar que surjan típicos problemas del desarrollo de software. Por lo que podemos decir, que Agile es algo así como un movimiento frente a las metodologías de desarrollo de software tradicionales, por lo que representa los principios como tal.
+
+Scrum, a diferencia de Agile, no es una metodología. Scrum es un framework porque está formado por una serie de eventos, artefactos, roles, normas... para un determinado fin, por lo que si no se siguen paso a paso no se estará haciendo Scrum.
+
+### **Gobernanza ágil:**
+
+Agile es un marco utilizado para el desarrollo de software y la gestión de proyectos. Los proyectos individuales se dividen en segmentos más pequeños y fáciles de administrar para acelerar
