@@ -402,7 +402,7 @@ BPM (Business Process Management), o Gestión de Procesos de Negocio, es una dis
 
 Se basa en un ciclo de mejora continua compuesto de cuatro etapas:
 
-1. Modelar los procesos mediante un diagrama en una notación gráfica (como ser el estándar **BPMN** por ejemplo), que permita visualizar y discutir cómo funcionan.
+1. Modelar los procesos mediante un diagrama en una notación gráfica (como puede ser el estándar **BPMN** por ejemplo), que permita visualizar y discutir cómo funcionan.
 2. Automatizar los procesos utilizando un BPM Suite, donde los diferentes participantes de cada etapa puedan hacer su parte del trabajo.
 3. Medir tiempos y cantidades de trabajo realizadas utilizando indicadores de rendimiento, para extraer conclusiones objetivas sobre dónde mejorar.
 4. Optimizar, introducir las mejoras derivadas del análisis anterior para mejorar el proceso, y volver al punto 1.
@@ -442,3 +442,81 @@ Scrum, a diferencia de Agile, no es una metodología. Scrum es un framework porq
 Agile es un marco utilizado para el desarrollo de software y la gestión de proyectos. Los proyectos individuales se dividen en segmentos más pequeños y fáciles de administrar para acelerar el proceso de diseño y producir un producto de calidad lo más rápido posible. Parece una buena idea, ¿verdad? claro que lo hace. Pero una empresa u organización no es solo un proyecto o un producto de software. Quedarse atrapado en el proceso de diseño de un proyecto puede crear una especie de visión de túnel en la que solo se considera una pequeña pieza del rompecabezas. Las organizaciones deben mirar el panorama general, el efecto general que el proceso ágil tiene en la organización. La gobernanza ágil busca alinear todos los proyectos en los que se trabaja con los objetivos de la organización.
 
 La gobernanza ágil se trata de crear valor en toda la organización, no solo dentro de un proyecto individual. La gobernanza ágil está destinada a crear un puente entre la gestión de una organización y los equipos que están completando proyectos.
+
+## BPMN (Business Process Model and Notation)
+
+### ¿Qué es una BPMN?
+
+La notación del modelado de procesos de negocio (BPMN) es un método de diagrama de flujo que modela los pasos de un proceso de negocio planificado de principio a fin. Un aspecto clave de la gestión de procesos de negocios (BPM) es que representa visualmente una secuencia detallada de los flujos de información y las actividades empresariales necesarias para finalizar un proceso.
+
+### Eventos
+
+Un disparador que inicia, modifica o finaliza un proceso. Los tipos de eventos incluyen mensajes, temporizadores, errores, compensaciones, señales, cancelaciones, escalaciones, enlaces y otros. Se muestran con círculos que contienen otros símbolos en función del tipo de evento. Se clasifican como "lanzar" o "capturar", según su función.
+
+![BPMN Eventos](img/BPMNEventos.png)
+
+### Actividad
+
+Una actividad o **tarea** particular llevada a cabo por una persona o sistema. Se muestra con un rectángulo con bordes redondeados. Puede volverse más detallada con **subprocesos**, bucles, compensaciones y múltiples instancias.
+
+![BPMN Actividad](img/BPMNActividad.png)
+
+### Gateway
+
+Punto decisivo que puede modificar la ruta en función de las condiciones o los eventos. Se muestran como diamantes. Pueden ser exclusivos o inclusivos, paralelos, complejos o basarse en datos o eventos.
+
+![BPMN Gateway](img/BPMNGateway.png)
+
+### Flujo de secuencia
+
+Muestra el orden de las actividades que se realizarán. Se representa con una línea recta. Puede mostrar un flujo condicional o un flujo predeterminado.
+
+![BPMN Flujo](img/BPMNFlujo.png)
+
+### Flujo de mensajes
+
+Muestra mensajes que fluyen en "piscinas" o limites organizativos, como los departamentos. No debe conectar eventos o actividades dentro de una piscina. Se representa con una linea discontinua que contiene un circulo al principio y una flecha al final.
+
+![BPMN Flujo Mensaje](img/BPMNFlujoMensaje.png)
+
+### Asociación
+
+Se muestra con una línea punteada y asocia un artefacto o texto a un evento, actividad o puerta de enlace
+
+![BPMN Asociacion](img/BPMNAsociacion.png)
+
+### Carril o piscina
+
+Una piscina representa a los principales participantes de un proceso. Puede haber otra piscina en otra compañía o departamento, pero igual estará involucrada en el proceso.
+
+Los carriles dentro de una piscina muestran las actividades y los flujos para un determinado rol o participante, definiendo quién es responsable de qué partes del proceso.
+
+![BPMN Pool](img/BPMNPool.png)
+
+### Artefacto
+
+Información adicional que los desarrolladores agregan para aportar el nivel necesario de detalle al diagrama. Hay tres tipos de artefactos:
+
+- **Objeto de datos:** Muestra los datos necesarios para una actividad.
+- **Grupo:** Muestra una agrupación lógica de actividades, pero no cambia el flujo del diagrama.
+- **Anotación:** brinda una explicación más completa de una parte del diagrama.
+
+![BPMN Artefactos](img/BPMNArtefactos.png)
+
+### Ejemplos
+
+Los procesos de service desk se utilizan mucho en las empresas de servicios de tecnología y su objetivo es apoyar y responder a las llamadas de los clientes internos y externos.
+
+![BPMN Ejemplo 1](img/BPMNEjemplo1.png)
+
+### Ejemplo:
+
+Los procesos que una empresa realiza para enviar a sus trabajadores a terreno es la reservación de un viaje y alojamiento para ellos tal como se ve a continuación.
+
+![BPMN Ejemplo 2](img/BPMNEjemplo2.png)
+
+### Ejemplo 1:
+
+La solicitud de rembolso o rendición de gastos conlleva una serie de pasos que puede ser graficados a continuación.
+
+![BPMN Ejemplo 3](img/BPMNEjemplo3.png)
