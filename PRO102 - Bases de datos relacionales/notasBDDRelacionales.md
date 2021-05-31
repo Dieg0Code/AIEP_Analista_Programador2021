@@ -168,3 +168,63 @@ Son los modelos, politicas, reglas y estándares que nos indican de qué manera 
 ### Análisis de requerimientos
 
 Es un estudio profundo de una necesidad tecnológica que tiene una empresa, organización o negocio. En este proceso, se realiza un análisis exhaustivo del sistema que va a desarrollar. Se definen y aplican técnicas que permitan analizar los requisitos necesarios para su buen desarrollo.
+
+## ¿Que es una abstracción de datos?
+
+- Es una característica de un sistema de base de datos, permite al usuario operar los datos sin necesidad de conocer detalles del sistema que para el no son de importancia, ofreciendo, una visión abstracta de este.
+- Existen niveles de abstracción como es el nivel físico, lógico y de vistas.
+
+### Nivel Físico
+
+- Abstracción de nivel bajo
+- El almacenamiento es a nivel físico.
+- La forma de acceder a los diferentes registros de una BD.
+
+![Nivel físico](img/PRO102NivelFisico.png)
+
+### Nivel Lógico
+
+- Abstracción intermedia.
+- Descripción de estructura de la BD.
+- Entidades.
+- Atributos.
+- Relaciones.
+- Tipos de datos.
+
+![Nivel lógico](img/PRO102NivelLogico.png)
+
+### Nivel de Vista
+
+- Abstracción nivel alto.
+- Los datos se convierten en información.
+- Consultas ya definidas para el usuario (Querys).
+- El usuario recopila la información de forma ordenada.
+- El usuario del sistema no tiene acceso al nivel lógico y físico.
+
+![Nivel vista](img/PRO102NivelVista.png)
+
+### Modelamiento de datos conceptuales
+
+El modelado conceptual de datos representa las entidades importantes y sus relaciones para explorar los conceptos de dominio con interesados en el proyecto que definen el ámbito del problema que tratará la solución del sistema.
+
+![modelamiento de datos conceptuales](img/PRO102ModelamientoConceptual.png)
+
+### Mapas Conceptuales
+
+El mapa conceptual consiste en una sinopsis gráfica sobre un tema en concreto. Es una técnica usada normalmente por estudiantes para resumir y completar fácilmente todas las partes y ramificaciones de un tema y sus relaciones.
+
+![Mapas Conceptuales](img/PRO102MapasConceptuales.png)
+
+### Diagrama de flujo de datos
+
+Traza el flujo de la información para cualquier proceso o sistema. Emplea símbolos definidos, como rectángulos, círculos y flechas, además de etiquetas de texto breves, para mostrar las entradas y salidas de datos, los puntos de almacenamiento y las rutas entre cada destino.
+
+![Diagrama Flujo de Datos](img/PRO102DiagramaFujoDatos.png)
+
+### UML
+
+Es un lenguaje gráfico para visualizar, especificar, construir y documentar un sistema.
+
+Es importante remarcar que UML es un "lenguaje de modelado" para especificar o para describir métodos o procesos.
+
+Se utiliza para definir un sistema, para detallar los artefactos en el sistema y para documentar y construir.
