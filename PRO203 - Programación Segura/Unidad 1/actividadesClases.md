@@ -136,9 +136,22 @@ Una rama en Git es una bifurcación de un repositorio. Una rama es una versión 
 
 Hacer esto asegura que un atacante no pueda modificar la intención de una consulta, incluso si intenta introducir una sentencia SQL maliciosa.
 
+Ejemplo inseguro:
+
+```java
+String query = "SELECT account_balance FROM user_data WHERE user_name = " + request.getParameter("customerName");
+try {
+    Statement stmt = conn.createStatement( ... );
+    ResultSet rs = stmt.executeQuery(query);
+}
+```
+
+Este ejemplo es inseguro porque el atacante puede modificar el valor de la variable `customerName` para que el programa intente ejecutar una consulta SQL maliciosa.
+
 Ejemplo Java EE - PreparedStatement( ):
 
 ```java
+// Este parámetro debería ser validado antes de ser usado
 String custname = request.getParameter("customerName");
 // Consulta SQL
 String query = "SELECT account_balance FROM user_data WHERE user_name = ?";
@@ -148,11 +161,12 @@ pstmt.setString(1, custname);
 ResultSet results = pstmt.executeQuery();
 ```
 
-La consulta SQL se define en una variable, y se pasa como parámetro luego.
+La consulta SQL se define en una variable, y se pasa como parámetro luego. Este ejemplo es seguro porque al ser definida en una variable, el atacante no puede modificar la intención de la consulta.
 
 - `Procedimientos almacenados`: Los procedimientos almacenados tienen el mismo efecto que las consultas parametrizadas. La diferencia es que los procedimientos almacenados son definidos y almacenados en la base de datos, y son llamados desde la aplicación.
 
 ```java
+// Este parámetro debería ser validado antes de ser usado
 String custname = request.getParameter("customerName");
 try {
     // Consulta SQL
@@ -171,7 +185,7 @@ try {
 
 #### 3. Tips para Sensitive Data Exposure:
 
-- Clasificar la data procesada, almacenada o transmitida por la aplicación. Identificar cual data es sensible de acuerdo con las leyes de privacidad, requerimientos regulares, o necesidades del negocio.
+- Clasificar la data procesada, almacenada o transmitida por la aplicación. Identificar cual data es sensible de acuerdo con las leyes de privacidad, requisitos reguladores, o necesidades del negocio.
 - Asegurarse de encriptar la data sensible.
 
 #### 4. Tips para XML External Entities (XXE):
