@@ -232,13 +232,13 @@ try {
 3. Estándares de seguridad en pagos electrónicos.
 4. Lo nuevo que se viene en seguridad de pagos digitales.
 
-#### ¿Que es la seguridad en pagos electrónicos?
+#### `¿Que es la seguridad en pagos electrónicos?`
 
 La seguridad en pagos electrónicos consiste en la protección de los datos de la transacción, y la verificación de la autenticidad de la transacción. Las entidades bancarias tienen la obligación de garantizar la seguridad de nuestros pagos electrónicos, es decir, verificar que están debidamente autorizados, esto es, que hayamos dado nuestro consentimiento para que se realice la transacción.
 
 Por lo tanto, lo que el pago seguro trata de garantizar es que ningún tercero pueda autorizar órdenes de pago en nuestro nombre y que los fondos llegan correctamente a destino, a la cuenta del beneficiario.
 
-#### ¿Como funciona la seguridad en pagos electrónicos?
+#### `¿Como funciona la seguridad en pagos electrónicos?`
 
 En la actualidad existen varias formas de proteger la seguridad de los pagos electrónicos, algunas de ellas son:
 
@@ -247,7 +247,7 @@ En la actualidad existen varias formas de proteger la seguridad de los pagos ele
 
 A la hora de evaluar entre varias opciones de sistemas de pago electrónico es de vital importancia asegurarse de que este sea compatible con el estándar de seguridad de datos de la industria de tarjetas de pago (también conocidos por sus siglas PCI). Este estándar tiene como principal objetivo fijar una lista de requisitos que hacen que los sistemas de pago acepten, almacenen y procesen de forma segura dichas transacciones.
 
-#### Estándares de seguridad en pagos electrónicos.
+#### `Estándares de seguridad en pagos electrónicos`.
 
 Los estándares de seguridad en pagos electrónicos que indica PCI-DSS son:
 
@@ -270,7 +270,7 @@ Los estándares de seguridad en pagos electrónicos que indica PCI-DSS son:
 - Mantener una politica de seguridad de la información
   - Requisito 12: Mantener una política que contemple la seguridad de la información.
 
-#### Lo nuevo que se viene en seguridad de pagos digitales.
+#### `Lo nuevo que se viene en seguridad de pagos digitales`.
 
 Algunas tecnologías de seguridad actuales son: 
 
