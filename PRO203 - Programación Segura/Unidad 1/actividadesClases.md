@@ -222,3 +222,65 @@ try {
 
 - Asegurar todos los loggins, las fallas de control de acceso, y verificar toda data procesada por el servidor.
 - Asegurar que todos los logs sean registrados en un formato el cual pueda ser consultado fácilmente.
+
+## Seguridad en pagos electrónicos
+
+### Actividades
+
+1. ¿Que es la seguridad en pagos electrónicos?
+2. ¿Como funciona la seguridad en pagos electrónicos?
+3. Estándares de seguridad en pagos electrónicos.
+4. Lo nuevo que se viene en seguridad de pagos digitales.
+
+#### ¿Que es la seguridad en pagos electrónicos?
+
+La seguridad en pagos electrónicos consiste en la protección de los datos de la transacción, y la verificación de la autenticidad de la transacción. Las entidades bancarias tienen la obligación de garantizar la seguridad de nuestros pagos electrónicos, es decir, verificar que están debidamente autorizados, esto es, que hayamos dado nuestro consentimiento para que se realice la transacción.
+
+Por lo tanto, lo que el pago seguro trata de garantizar es que ningún tercero pueda autorizar órdenes de pago en nuestro nombre y que los fondos llegan correctamente a destino, a la cuenta del beneficiario.
+
+#### ¿Como funciona la seguridad en pagos electrónicos?
+
+En la actualidad existen varias formas de proteger la seguridad de los pagos electrónicos, algunas de ellas son:
+
+- `Tecnología de encriptación SSL (Secure Sockets Layer)`: La tecnología de encriptación SSL es un modelo de seguridad que regulariza el cumplimiento de los 4 grandes aspectos básicos de la seguridad: la autentificación, la confidencialidad, la integridad y el no repudio. El cumplimiento de dichos requisitos te asegurará que todas las transacciones realizadas en tu ecommerce serán seguras.
+- `Configuración de firmas electrónicas`: Hacen uso de una infraestructura pública para mantener las transacciones seguras. Para entendernos, es la huella digital que relaciona al propietario de la tarjeta utilizada con la operación.
+
+A la hora de evaluar entre varias opciones de sistemas de pago electrónico es de vital importancia asegurarse de que este sea compatible con el estándar de seguridad de datos de la industria de tarjetas de pago (también conocidos por sus siglas PCI). Este estándar tiene como principal objetivo fijar una lista de requisitos que hacen que los sistemas de pago acepten, almacenen y procesen de forma segura dichas transacciones.
+
+#### Estándares de seguridad en pagos electrónicos.
+
+Los estándares de seguridad en pagos electrónicos que indica PCI-DSS son:
+
+- Desarrollar y mantener una red segura
+  - Requisito 1: Instalar y mantener una configuración de cortafuegos para proteger los datos de los propietarios de tarjetas.
+  - Requisito 2: No usar contraseñas del sistema y otros parámetros de seguridad predeterminados provistos por los proveedores.
+- Proteger los datos de los propietarios de tarjetas
+  - Requisito 3: Proteger los datos almacenados de los propietarios de tarjetas.
+  - Requisito 4: Cifrar los datos de los propietarios de tarjetas e información confidencial transmitida a través de redes públicas abiertas.
+- Mantener un programa de gestión de vulnerabilidades
+  - Requisito 5: Usar y actualizar regularmente un software antivirus.
+  - Requisito 6: Desarrollar y mantener sistemas y aplicaciones seguras.
+- Implementar medidas sólidas de control de acceso
+  - Requisito 7: Restringir el acceso a los datos tomando como base la necesidad del funcionario de conocer la informacion.
+  - Requisito 8: Asignar una identificación única a cada persona que tenga acceso a un computador.
+  - Requisito 9: Restringir el acceso físico a los datos de los propietarios de tarjetas.
+- Monitorizar y probar regularmente las redes
+  - Requisito 10: Rastrear y monitorizar todo el acceso a los recursos de la red y datos de los propietarios de tarjetas.
+  - Requisito 11: Probar regularmente los sistemas y procesos de seguridad.
+- Mantener una politica de seguridad de la información
+  - Requisito 12: Mantener una política que contemple la seguridad de la información.
+
+#### Lo nuevo que se viene en seguridad de pagos digitales.
+
+Algunas tecnologías de seguridad actuales son: 
+
+- `pagos por código QR`: Es una tecnología que permite realizar pagos en línea escaneando un código QR.
+- `mensajes de texto`: Podemos autorizar los pagos mediante mensajes de texto.
+
+- `escaneo de huella digital`: Muchos celulares y tablets tienen una tecnología de escaneo de huella digital que permite identificar a los propietarios de tarjetas mediante el uso del escaner por parte de aplicaciones oficiales.
+
+- `uso de claves temporales`: Es un método de seguridad que nos dá claves desechables para realizar pagos.
+
+- `transferencias mediante aplicaciones móviles`: En la actualidad los bancos proveen aplicaciones móviles que permiten realizar transferencias de dinero a través de la aplicación de forma segura, ya que ellos tienen la obligación de proteger la información de los usuarios.
+
+- `blockchain`: Esta tecnología cuenta con un registro de transacciones publico en donde cada participante de la red tiene una copia, esto ademas de otras medidas de seguridad nos garantiza que ninguna transacción puede ser alterada.
