@@ -4,6 +4,9 @@
 
 <Workspace>
 	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{63DA6550-A0F1-4070-A16B-8ED633FC2AFA}" Loaded="No" Name="video club 1" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../PRO202 - Taller de Base de Datos/unidad 1/power designer/video club 1/video club 1.prj"/>
+		<Model Expanded="Yes" ID="{63DA6550-A0F1-4070-A16B-8ED633FC2AFA}" Loaded="No" Name="video club 1" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../PRO202 - Taller de Base de Datos/unidad 1/power designer/video club 1/video club 1.prj"/>
+		<Model Expanded="Yes" ID="{7BB2F06D-923A-4E45-98DE-5EBD64694CB1}" Name="restaurant-la-familia" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../PRO202 - Taller de Base de Datos/unidad 1/power designer/restaurant-la-familia/restaurant-la-familia.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
