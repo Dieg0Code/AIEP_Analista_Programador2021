@@ -1,3 +1,3 @@
-# Programacion segura
+# Programación segura
 
 Profesor: [**Jorge Guzman**](https://www.linkedin.com/in/jorgegzn)
