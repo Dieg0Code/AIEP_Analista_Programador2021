@@ -28,7 +28,7 @@ Esta reunion fue algo simbolico, puesto que el surgimiento de un manifiesto para
 
 Los métodos ágiles se basan en la noción de desarrollo y entrega incremental, sin embargo, utilizan procesos diferentes para alcanzar esta noción de desarrollo. Aún así comparten un conjunto de valores que se aplican para todas estas metodologías ágiles.
 
-### Participación del cliente
+### ``Participación del cliente``
 
 Los clientes deben estar fuertemente implicados en todo el proceso de desarrollo.
 
@@ -44,7 +44,7 @@ Tanto la propia organización como los clientes deben entender su implicación c
 
 La burocracia dificulta la ejecución de las tareas, así que el objetivo es intentar reducirla al máximo posible.
 
-### Personas no procesos
+### ``Personas no procesos``
 
 Este es el postulado más importante. Se deben reconocer y explotar las habilidades del equipo de desarrollo. Para esto, se le debe dejar desarrollar sus propias formas de trabajar, sin procesos formales, a los miembros del equipo.
 
@@ -56,7 +56,7 @@ El capital humano está por encima de cualquier otro proceso o herramienta, pues
 
 Las empresas deben estar preparadas para entender, dirigir y respetar la capacidad de autoorganización de sus empleados. Solo de esta manera se logrará aportar verdadero valor al producto final. Por supuesto, esto no quiere decir que deba desaparecer ninguna herramienta, sino que deben limitarse a ser un mero elemento de apoyo para que las personas puedan lograr sus objetivos.
 
-### Aceptar el cambio
+### ``Aceptar el cambio``
 
 La principal característica de cualquier metodología ágil es su capacidad de evolución y adaptación al mercado. Con una estructura clásica, la respuesta a las necesidades de un mercado cambiante seria muy difícil, pues el seguimiento del proyecto se realiza conforme a un plan establecido del que prácticamente no podemos salirnos.
 
@@ -66,7 +66,7 @@ Por lo tanto, se debe contar con que los requerimientos del sistema cambian, por
 
 Aun así, priorizar los cambios, puede ser algo extremadamente difícil de llevar a la practica, especialmente en sistemas en los que existen muchas partes interesadas. Por lo general cada parte interesada va a dar distintas prioridades a diferentes cambios.
 
-### Mantener la simplicidad
+### ``Mantener la simplicidad``
 
 Si bien es cierto que la documentación es un elemento fundamental en cualquier proyecto, se valora un producto funcional que cumpla con los requisitos iniciales y que sea intuitivo, que al fin y al cabo es lo que realmente valoran los usuarios que van a utilizarlo. Las nuevas tecnologías deben estar al servicio de estos procesos, y deben ser un medio para conseguir productos más funcionales.
 
